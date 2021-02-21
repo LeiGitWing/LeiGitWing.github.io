@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+欢迎来到四叠半山。
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+『四叠半』一次源自日本，原本指的是日本人生活的最小空间，只有4.5个榻榻米的大小。山的意象来自我的小时候。从小在山脚下接受教育，度过了人生中的第一个思想启蒙。博客成立之时正值低谷期，四叠半山算是对当时的我祝福，脚踏实地，仰望星空。
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+我的兴趣爱好比较广泛，主要集中在读书写作写代码上，未来也会不定期折腾些别的事物。欢迎各路朋友一起交流，(邮箱)[]联系我即可。
