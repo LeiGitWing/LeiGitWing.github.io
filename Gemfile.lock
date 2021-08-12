@@ -3,7 +3,7 @@ PATH
   specs:
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
-      jekyll-feed (~> 0.9)
+      jekyll-feed (~> 0.15.1)
       jekyll-seo-tag (~> 2.1)
 
 GEM
