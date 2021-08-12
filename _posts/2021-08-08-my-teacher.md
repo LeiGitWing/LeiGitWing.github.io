@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "日更"
-date:   2021-08-08 23:55:58 GMT+8
+date:   2021-08-08 23:55:58 +0800
 categories: jekyll update
 ---
 ## 0. 缘起

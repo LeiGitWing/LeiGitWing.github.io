@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "S6 + 日更 + 第19天 + 日日 + 社交媒体的思考  "
-date:   2021-08-08 23:55:58 GMT+8
+title:  "S6 + 日更 + 第19天 + 日日 + 社交媒体的思考"
+date:   2021-08-08 23:55:58 +0800
 categories: jekyll update
 ---
 ### 0.
