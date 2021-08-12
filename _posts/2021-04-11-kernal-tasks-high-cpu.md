@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MacBook Pro 下的 kernel task cpu 占用过高时怎么办？"
+title:  "MacBook Pro 下的 kernel task cpu 占用过高时怎么办?"
 date:   2021-04-11 19:59:20 +0800
 categories: jekyll update
 ---
