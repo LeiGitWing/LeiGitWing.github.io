@@ -2,7 +2,7 @@
 layout: post
 title:  无法上谷歌学术时怎么办
 date:   2020-10-01 21:39:52 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 
 ## 0. 环境

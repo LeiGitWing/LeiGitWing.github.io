@@ -2,7 +2,7 @@
 layout: post
 title:  心理咨询小记
 date:   2020-09-29 23:46:55 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 
 ## 0. 

@@ -2,7 +2,7 @@
 layout: post
 title:  勾陈 | iPic中使用阿里云OSS
 date:   2020-10-25 00:17:03 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 ![](http://riri191220.img-cn-shenzhen.aliyuncs.com/images/4zntf.png?x-oss-process=style/resize)
 

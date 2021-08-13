@@ -2,7 +2,7 @@
 layout: post
 title:  如何在控制中找到自主
 date:   2020-09-26 22:12:28 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 
 ### 0.

@@ -2,7 +2,7 @@
 layout: post
 title:  粤语残片
 date:   2020-09-22 17:23:03 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 
 ## 0.

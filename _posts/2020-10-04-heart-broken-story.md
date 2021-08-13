@@ -2,7 +2,7 @@
 layout: post
 title:  心碎小故事
 date:   2020-10-04 21:39:52 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 
 ### 0.

@@ -2,7 +2,7 @@
 layout: post
 title:  每日写千字文
 date:   2020-09-21 00:00:33 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 
 阳老师的博客中曾提到，他有一位和自己比较像的学徒。我印象中的阳老师比较内向，技术派，喜欢写文章。大概这个学徒也是这样的人吧。后来，偶然间发现原来阳老师提到的这个学徒就是陈素封。

@@ -2,7 +2,7 @@
 layout: post
 title:  小朋友和拼音
 date:   2020-10-03 21:39:52 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 
 

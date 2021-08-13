@@ -2,7 +2,7 @@
 layout: post
 title:  A4笔记法
 date:   2020-09-25 22:20:19 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 
 ### 0.

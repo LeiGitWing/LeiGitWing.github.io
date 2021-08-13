@@ -2,7 +2,7 @@
 layout: post
 title:  生活一则
 date:   2020-09-23 23:52:35 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 
 ## 0. 

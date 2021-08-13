@@ -2,7 +2,7 @@
 layout: post
 title:  "日更day11：办卡小记"
 date:   2021-02-11 23:59:30 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 
 ## 0.

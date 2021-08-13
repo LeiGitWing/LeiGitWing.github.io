@@ -2,7 +2,7 @@
 layout: post
 title:  慢学校社群之旅复盘
 date:   2020-09-05 17:12:40 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 
 ## 0. 缘起 

@@ -2,7 +2,7 @@
 layout: post
 title:  "读书笔记《好点子都是偷来的》"
 date:   2021-02-11 23:59:30 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 
 你知道吗，好点子都不是原创，它们都是偷来的。

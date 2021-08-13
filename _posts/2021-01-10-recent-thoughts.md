@@ -2,7 +2,7 @@
 layout: post
 title:  最近感想
 date:   2021-01-10 00:17:03 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 
 ### 0. 
