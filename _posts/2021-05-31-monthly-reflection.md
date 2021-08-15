@@ -2,7 +2,7 @@
 layout: post
 title:  "五月回顾"
 date:   2021-05-31 12:59:20 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 ### 0.
 五月，期末周。今天是期末复习的第一周。下周就要开始两门考试了，广州最近降龙舟水。灰沉沉的天如草稿纸上的涂抹，雷声轰鸣，而我的复习之路如同路边枝叶摇摆的大树般迷茫。

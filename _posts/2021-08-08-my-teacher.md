@@ -2,7 +2,7 @@
 layout: post
 title:  "S6 + 日更 + 第16天 + 日日 + 我的老师"
 date:   2021-08-08 23:55:58 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 ## 0. 缘起
 

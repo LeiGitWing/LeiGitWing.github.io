@@ -2,7 +2,7 @@
 layout: post
 title:  "第三次日更的感想"
 date:   2021-08-08 23:38:58 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 ### 0.
 最近参加了好中文第六期的日更活动。之前我也尝试过自己一个人日更，原想每天都写千字文。大概坚持了两周，仓促结束。

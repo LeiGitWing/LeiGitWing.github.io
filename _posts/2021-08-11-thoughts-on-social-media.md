@@ -2,7 +2,7 @@
 layout: post
 title:  "S6 + 日更 + 第19天 + 日日 + 社交媒体的思考"
 date:   2021-08-08 23:55:58 +0800
-categories: jekyll update
+categories: daily_writing
 ---
 ### 0.
 打开 inoreader，最近几天的中文博客大多在讨论关闭社交媒体后的感想。社交媒体的信息大多是被动接受的信息，无论是朋友圈，推特，微博，微信公众号，b站或是youtube。不同的媒介平台信息质量，类型也不尽相同。
