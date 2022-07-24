@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "古诗十九首【翻译】"
+title:  "青青河畔草【翻译】"
 date:   2022-07-05 16:10:48 +0800
 categories: daily_writing
 ---
