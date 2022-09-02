@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "普通的诗歌"
+title:  "雨滴从云中落下"
 date:    2022-08-22 22:20:40 +0800
 categories: daily_writing
 ---
@@ -8,7 +8,7 @@ categories: daily_writing
 雨滴从云中落下  
 如一首简单的诗歌  
 滴答滴滴滴答滴  
-沾湿了白色或黄色的书页
+沾湿了白色或黄色的书页  
 拥抱着泥土
 
 上下翻飞的嘴唇  
