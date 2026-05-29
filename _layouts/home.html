@@ -9,53 +9,66 @@ layout: default
 
   {{ content }}
 
-
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
     {% assign posts = site.posts %}
   {% endif %}
 
-
   {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+    {%- assign posts_by_year = posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
 
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
+    <h2 class="timeline-heading">文章时间线</h2>
+
+    <div class="year-nav">
+      {%- for year_group in posts_by_year -%}
+        <button class="year-chip" data-year="{{ year_group.name }}">{{ year_group.name }}</button>
+      {%- endfor -%}
+    </div>
+
+    {%- for year_group in posts_by_year -%}
+      <div class="year-section" id="year-{{ year_group.name }}">
+        <div class="year-header">
+          <span class="year-number">{{ year_group.name }}</span>
+          <span class="year-count">共 {{ year_group.items | size }} 篇文章</span>
+        </div>
+        <ul class="post-list">
+          {%- for post in year_group.items -%}
+          <li>
+            <span class="post-date">{{ post.date | date: "%m-%d" }}</span>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </li>
+          {%- endfor -%}
         </ul>
       </div>
-    {%- endif %}
+    {%- endfor -%}
 
   {%- endif -%}
-
 </div>
+
+<script>
+(function () {
+  function showYear(year) {
+    document.querySelectorAll('.year-section').forEach(function (s) {
+      s.classList.remove('active');
+    });
+    document.querySelectorAll('.year-chip').forEach(function (c) {
+      c.classList.remove('active');
+    });
+    var section = document.getElementById('year-' + year);
+    var chip = document.querySelector('.year-chip[data-year="' + year + '"]');
+    if (section) section.classList.add('active');
+    if (chip) chip.classList.add('active');
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.year-chip').forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        showYear(this.dataset.year);
+      });
+    });
+    var first = document.querySelector('.year-chip');
+    if (first) showYear(first.dataset.year);
+  });
+})();
+</script>
