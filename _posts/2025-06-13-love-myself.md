@@ -3,6 +3,7 @@ layout: post
 title:  "写给自己的情书"
 date:    2025-06-13 17:17:13 +0800
 categories: daily_writing
+tags: [谈谈情]
 ---
 
 ## 0.
