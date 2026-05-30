@@ -19,9 +19,10 @@ layout: default
     </div>
     <div class="topics-grid">
       {%- assign love_posts = site.posts | where_exp: "post", "post.tags contains '谈谈情'" -%}
+      {%- assign love_page = site.pages | where: "permalink", "/topics/谈谈情/" | first -%}
       <a class="topic-card" href="{{ "/topics/谈谈情/" | relative_url }}">
         <span class="topic-name">谈谈情</span>
-        <span class="topic-desc">关于情感与关系的思考</span>
+        <span class="topic-desc">{{ love_page.description }}</span>
         <span class="topic-count">{{ love_posts.size }} 篇</span>
       </a>
       <a class="topic-card" href="#">

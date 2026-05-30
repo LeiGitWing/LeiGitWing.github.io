@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+# 用法：script/new-post "文章标题" [tag1,tag2]
+# 示例：script/new-post "我的新文章"
+#       script/new-post "写给自己的信" "谈谈情"
+
+set -e
+
+TITLE="$1"
+TAGS="$2"
+
+if [ -z "$TITLE" ]; then
+  echo "用法: script/new-post \"文章标题\" [标签]"
+  exit 1
+fi
+
+DATE=$(date +"%Y-%m-%d")
+TIME=$(date +"%Y-%m-%d %H:%M:%S %z")
+
+# 将标题转为文件名：去除特殊字符，空格换成连字符，转小写
+SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g')
+
+# 若标题全为中文，slug 会为空，用日期兜底
+if [ -z "$SLUG" ] || [ "$SLUG" = "-" ]; then
+  SLUG="post"
+fi
+
+FILENAME="_posts/${DATE}-${SLUG}.md"
+
+if [ -f "$FILENAME" ]; then
+  echo "文件已存在：$FILENAME"
+  exit 1
+fi
+
+# 生成 front matter
+if [ -n "$TAGS" ]; then
+  cat > "$FILENAME" <<EOF
+---
+layout: post
+title:  "$TITLE"
+date:   $TIME
+categories: daily_writing
+tags: [$TAGS]
+---
+
+EOF
+else
+  cat > "$FILENAME" <<EOF
+---
+layout: post
+title:  "$TITLE"
+date:   $TIME
+categories: daily_writing
+---
+
+EOF
+fi
+
+echo "已创建：$FILENAME"
